@@ -3,6 +3,7 @@
  */
 public class Main {
     public static void main(String[] args){
+        //accepts fulltime and favCourse
         Person p2 = new Instructor("Alice", "aline@uwo.ca", "Assistant Professor", new Course("Computer Science 2212","Learn about Software Engineering projects."));
         Person p1 = new Student("Bob", "bob@uwo.ca", "Restaurant Management", true);
 
